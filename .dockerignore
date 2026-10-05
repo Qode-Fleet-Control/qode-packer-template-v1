@@ -1,0 +1,11 @@
+.git
+.github
+.fleet
+.fleet-deploy.log
+*.log
+packer_cache
+.packer.d
+output-*
+*.auto.pkrvars.hcl
+crash.log
+.env

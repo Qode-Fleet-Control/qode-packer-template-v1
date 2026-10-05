@@ -1,3 +1,11 @@
-.env
 .fleet/
+*.log
 .fleet-deploy.log
+
+# --- Packer ---
+packer_cache/
+.packer.d/
+output-*/
+crash.log
+# local variable values (may hold secrets); example.pkrvars.hcl is committed
+*.auto.pkrvars.hcl
